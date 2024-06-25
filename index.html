@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table of Contents - Dots by Any Other Name</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
   </head>
 
-  <body>
+  <body class="bg-light">
     <nav
       class="d-flex flex-wrap justify-content-center p-3 bg-primary bg-gradient text-light"
     >
@@ -43,9 +44,9 @@
 
     <div class="container mt-2">
       <div class="row">
-        <main class="col-md-8">
+        <main class="col-md-8 bg-white rounded mb-5">
           <section id="shatter-introduction">
-            <h1>
+            <h1 class="text-center text-secondary mt-5">
               Dots by Any Other Name<sup
                 ><a
                   href="#dots-remark"
@@ -55,7 +56,7 @@
                 ></sup
               >
             </h1>
-            <h2>
+            <h2 class="text-center">
               The Story of <em>Shatter,</em> the first Digitally Produced Comic
               Book
             </h2>
@@ -84,9 +85,8 @@
             </p>
           </section>
 
-          <hr />
 
-          <h2 class="text-center">Table of Contents</h2>
+          <h2 class="text-center my-5">Table of Contents</h2>
           <div class="row" id="shatter-toc">
             <section class="col-md-6">
               <p>
@@ -404,14 +404,6 @@
                 </li>
               </ul>
 
-              <div class="alert alert-secondary">
-                <h3 class="mt-5">Open Whole Essay on a Single Page</h3>
-                <p>
-                  If you like, you can open the essay on a single page. This is
-                  not recommended because the navigation is a bit more
-                  confusing.
-                </p>
-              </div>
             </section>
             <div>
               <hr />
@@ -431,7 +423,7 @@
         <aside class="col-md-4">
           <div
             class="alert alert-info position-fixed"
-            style="max-height: 80vh; overflow-y: scroll"
+            id="toc-sidenav"
           >
             <img
               src="img/dots-by-any-other-name.jpg"
@@ -469,5 +461,31 @@
       </div>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <footer class="bg-dark text-muted p-5 row">
+      <div class="col-md-6 text-center">
+        <p class="mb-1">
+          Showcase of side projects, videos and writing about comics, computer
+          history and development.
+        </p>
+      </div>
+      <div class="col-md-3 text-center">
+        <p class="mb-1">
+          <a rel="noopener" href="#" class="btn btn-sm btn-outline-secondary"
+            >Back to top</a
+          >
+        </p>
+      </div>
+      <div class="col-md-3 text-center">
+        <p class="mb-1">
+          <a
+            href="https://marincomics.com/privacy-policy.html"
+            class="btn btn-sm btn-outline-light"
+            >Privacy Policy</a
+          >
+        </p>
+      </div>
+    </footer>
+
   </body>
 </html>
