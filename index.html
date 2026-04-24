@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table of Contents - Dots by Any Other Name</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css?v=20260420" />
+    <link rel="icon" href="/img/marincomics-logo-sm.webp" type="image/webp" />
     <link
       rel="canonical"
       href="https://marincomics.com/project-shatter-computer-comic/index.html"
@@ -16,22 +16,65 @@
       content="Dots by Any Other Name: The Story of Shatter, the first Digitally Produced Comic Book"
     />
     <meta
-      property="og:description"
       name="description"
-      content="This is an essay about Shatter, a comic book created by Mike Saenz, Peter B. Gillis and Charles Athanas in the mid-1980s on an Apple Macintosh (though with traditional, analog coloring). This milestone of the comics industry paved the way for other digital comics like Das Robot Imperium by Michael Götze and other digital comics."
+      content="Explore the history of Shatter, the first digitally produced comic book, created on an Apple Macintosh in 1985 by Mike Saenz, Peter B. Gillis, and Charlie Athanas."
+    />
+    <meta
+      property="og:description"
+      content="Explore the history of Shatter, the first digitally produced comic book, created on an Apple Macintosh in 1985 by Mike Saenz, Peter B. Gillis, and Charlie Athanas."
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://marincomics.com/project-shatter-computer-comic/index.html"
     />
     <meta
       name="keywords"
-      content="Shatter, Mike Saenz, Peter B. Gillis, Charles Athanas, Apple Macintosh, Das Robot Imperium, Michael Götze, digital comics, computer comics, computer history, computer art, computer graphics, computer illustration, computer coloring, computer lettering, computer sound effects, computer comic book, computer comic books, digital comic book, digital comic books, digital comic, digital comics, digital art, digital graphics, digital illustration, digital coloring, digital lettering, digital sound effects, digital comic book, digital comic books, digital comic, digital comics, digital art, digital graphics, digital illustration, digital coloring, digital lettering, digital sound effects"
+      content="Shatter, Mike Saenz, Peter B. Gillis, Charlie Athanas, Apple Macintosh, Das Robot Imperium, Michael Götze, first digital comic book, first computer comic, digital comics, computer comics, computer history, computer art, digital illustration, digital coloring, digital lettering, MacPaint, 1980s comics"
     />
     <meta
       property="og:image"
       content="https://marincomics.com/project-shatter-computer-comic/img/dots-by-any-other-name.webp"
     />
     <meta name="author" content="Marin Balabanov" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Dots by Any Other Name: The Story of Shatter"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore the history of Shatter, the first digitally produced comic book, created on an Apple Macintosh in 1985."
+    />
+    <meta
+      name="twitter:image"
+      content="https://marincomics.com/project-shatter-computer-comic/img/dots-by-any-other-name.webp"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Dots by Any Other Name: The Story of Shatter, the First Digitally Produced Comic Book",
+        "description": "Explore the history of Shatter, the first digitally produced comic book, created on an Apple Macintosh in 1985 by Mike Saenz, Peter B. Gillis, and Charlie Athanas.",
+        "url": "https://marincomics.com/project-shatter-computer-comic/index.html",
+        "image": "https://marincomics.com/project-shatter-computer-comic/img/dots-by-any-other-name.webp",
+        "author": {
+          "@type": "Person",
+          "name": "Marin Balabanov",
+          "url": "https://marincomics.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Marin Comics",
+          "url": "https://marincomics.com"
+        }
+      }
+    </script>
   </head>
 
   <body class="bg-light">
+    <a href="#main" class="visually-hidden-focusable">Skip to main content</a>
     <nav
       class="navbar navbar-expand-lg bg-primary bg-gradient"
       data-bs-theme="dark"
@@ -41,7 +84,7 @@
           ><img
             src="https://marincomics.com/img/marincomics-logo-sm.webp"
             alt="Marin Comics"
-            width="200px"
+            width="200"
             class="mt-2"
         /></a>
         <button
@@ -60,7 +103,7 @@
             <li class="nav-item">
               <a
                 class="nav-link link-light"
-                href="https://marincomics.com/writing.html"
+                href="https://marincomics.com"
                 >Writing</a
               >
             </li>
@@ -93,23 +136,23 @@
               >
             </li>
           </ul>
-          <a href="#" class="btn btn-outline-light" onclick="triggerSearch()"
+          <a href="#" class="btn btn-outline-light" data-action="search"
             >Search Site</a
           >
           <a
-          rel="noopener"
-          href="https://buymeacoffee.com/marincomics"
-          target="_blank"
-          class="btn btn-warning m-1"
-          >Buy Me A Coffee</a
-        >
+            rel="noopener noreferrer"
+            href="https://buymeacoffee.com/marincomics"
+            target="_blank"
+            class="btn btn-warning m-1"
+            >Buy Me A Coffee</a
+          >
         </div>
       </div>
     </nav>
 
     <div class="container mt-2">
       <div class="row">
-        <main class="col-md-8 bg-white rounded mb-5">
+        <main id="main" class="col-md-8 bg-white rounded mb-5">
           <section id="shatter-introduction">
             <h1 class="text-center text-secondary mt-5">
               Dots by Any Other Name<sup
@@ -484,7 +527,7 @@
           </div>
         </main>
         <aside class="col-md-4">
-          <div class="alert alert-info position-fixed" id="toc-sidenav">
+          <div class="alert alert-info position-fixed mx-2" id="toc-sidenav">
             <img
               src="img/dots-by-any-other-name.webp"
               alt="Dots by any other Name"
@@ -492,7 +535,11 @@
             />
             <div class="row">
               <div class="my-1 text-center">
-                <a href="https://marincomics.com" class="btn btn-outline-primary btn-sm ">&uarr; Home</a>
+                <a
+                  href="https://marincomics.com"
+                  class="btn btn-outline-primary btn-sm"
+                  >&uarr; Home</a
+                >
               </div>
               <div class="col d-flex justify-content-center">
                 <div
@@ -532,16 +579,11 @@
                   </div>
                 </div>
               </div>
-              <p class="text-center">
-                <a href="abstract.html" class="btn btn-outline-primary btn-sm"
-                  >Start reading &raquo;</a
-                >
-              </p>
             </div>
-            <p>
+            <p class="mt-2">
               <em>Shatter</em> is a comic book from the 1980s created by Mike
               Saenz, Peter B. Gillis and Charles Athanas on an Apple Macintosh.
-              This is the story of the first commercial comicbook to be created
+              This is the story of the first commercial comic book to be created
               on a computer.
             </p>
             <ul>
@@ -552,6 +594,17 @@
                 <a href="#shatter-toc">Table of Contents</a>
               </li>
             </ul>
+            <hr />
+            <div class="row">
+              <div class="col-6"></div>
+              <div class="col-6">
+                <p class="text-end">
+                  <a href="abstract.html" class="btn btn-outline-primary btn-sm"
+                    >Start reading &raquo;</a
+                  >
+                </p>
+              </div>
+            </div>
           </div>
         </aside>
       </div>

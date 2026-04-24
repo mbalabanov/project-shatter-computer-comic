@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>III. The Production Process - Dots by Any Other Name</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/custom.css?v=20260420" />
+    <link rel="icon" href="/img/marincomics-logo-sm.webp" type="image/webp" />
     <link
       rel="canonical"
       href="https://marincomics.com/project-shatter-computer-comic/chapter-03.html"
@@ -16,22 +16,62 @@
       content="Dots by Any Other Name - III. The Production Process"
     />
     <meta
-      property="og:description"
       name="description"
-      content="This is an essay about Shatter, a comic book created by Mike Saenz, Peter B. Gillis and Charles Athanas in the mid-1980s on an Apple Macintosh (though with traditional, analog coloring). This milestone of the comics industry paved the way for other digital comics like Das Robot Imperium by Michael Götze and other digital comics."
+      content="Comparing the comic book production process of the 1980s with Shatter's digital workflow on Apple Macintosh and the modern methods used by commercial and independent artists."
+    />
+    <meta
+      property="og:description"
+      content="Comparing the comic book production process of the 1980s with Shatter's digital workflow on Apple Macintosh and the modern methods used by commercial and independent artists."
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://marincomics.com/project-shatter-computer-comic/chapter-03.html"
     />
     <meta
       name="keywords"
-      content="Shatter, Mike Saenz, Peter B. Gillis, Charles Athanas, Apple Macintosh, Das Robot Imperium, Michael Götze, digital comics, computer comics, computer history, computer art, computer graphics, computer illustration, computer coloring, computer lettering, computer sound effects, computer comic book, computer comic books, digital comic book, digital comic books, digital comic, digital comics, digital art, digital graphics, digital illustration, digital coloring, digital lettering, digital sound effects, digital comic book, digital comic books, digital comic, digital comics, digital art, digital graphics, digital illustration, digital coloring, digital lettering, digital sound effects"
+      content="Shatter production process, comic book creation, penciling, inking, coloring, lettering, MacPaint, MacDraw, Apple Macintosh, digital art workflow, Wacom tablet, independent comics, 1980s comics production"
     />
     <meta
       property="og:image"
       content="https://marincomics.com/project-shatter-computer-comic/img/dots-by-any-other-name.webp"
     />
     <meta name="author" content="Marin Balabanov" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Production Process of Shatter" />
+    <meta
+      name="twitter:description"
+      content="Comparing the comic book production process of the 1980s with Shatter's digital workflow on Apple Macintosh."
+    />
+    <meta
+      name="twitter:image"
+      content="https://marincomics.com/project-shatter-computer-comic/img/dots-by-any-other-name.webp"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Production Process",
+        "description": "Comparing the comic book production process of the 1980s with Shatter's digital workflow on Apple Macintosh and the modern methods used by commercial and independent artists.",
+        "url": "https://marincomics.com/project-shatter-computer-comic/chapter-03.html",
+        "image": "https://marincomics.com/project-shatter-computer-comic/img/dots-by-any-other-name.webp",
+        "author": {
+          "@type": "Person",
+          "name": "Marin Balabanov",
+          "url": "https://marincomics.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Marin Comics",
+          "url": "https://marincomics.com"
+        }
+      }
+    </script>
   </head>
 
   <body>
+    <a href="#main" class="visually-hidden-focusable">Skip to main content</a>
     <nav
       class="navbar navbar-expand-lg bg-primary bg-gradient"
       data-bs-theme="dark"
@@ -41,7 +81,7 @@
           ><img
             src="https://marincomics.com/img/marincomics-logo-sm.webp"
             alt="Marin Comics"
-            width="200px"
+            width="200"
             class="mt-2"
         /></a>
         <button
@@ -60,7 +100,7 @@
             <li class="nav-item">
               <a
                 class="nav-link link-light"
-                href="https://marincomics.com/writing.html"
+                href="https://marincomics.com"
                 >Writing</a
               >
             </li>
@@ -93,11 +133,11 @@
               >
             </li>
           </ul>
-          <a href="#" class="btn btn-outline-light" onclick="triggerSearch()"
+          <a href="#" class="btn btn-outline-light" data-action="search"
             >Search Site</a
           >
           <a
-            rel="noopener"
+            rel="noopener noreferrer"
             href="https://buymeacoffee.com/marincomics"
             target="_blank"
             class="btn btn-warning m-1"
@@ -109,10 +149,11 @@
 
     <div class="container mt-2">
       <div class="row">
-        <main class="col-md-8 mb-5">
+        <main id="main" class="col-md-8 mb-5">
           <article id="shatter-chapter-3">
-            <h1 class="text-secondary mt-5">Dots by Any Other Name</h1>
-            <h2>III. The Production Process</h2>
+            <h1 class="text-secondary text-center mt-5 mb-3">
+              III. The Production Process
+            </h1>
             <section id="shatter-chapter-3-section-1">
               <blockquote class="alert alert-secondary">
                 To destroy is always the first step in any creation.<br />
@@ -131,7 +172,7 @@
             </section>
 
             <section id="shatter-chapter-3-section-2">
-              <h3 class="mt-5">The Typical Process in the 1980s</h3>
+              <h2 class="mt-5">The Typical Process in the 1980s</h2>
               <p>
                 The writer of the comic typed the story and the script on his
                 typewriter and sent it to the editor for review.
@@ -169,7 +210,7 @@
                 hand.
               </p>
               <p>
-                The pages of the comic book are then photographed for print and
+                The pages of the comic book were then photographed for print and
                 reduced to the desired size<sup
                   ><a
                     id="shatter-chapter-3-footnote-origin-13"
@@ -182,7 +223,7 @@
               <p class="text-center">
                 <img
                   src="img/picture23.webp"
-                  alt="Figure 21"
+                  alt="MacPaint running on a monochrome Macintosh, circa 1984"
                   class="img-fluid"
                 />
               </p>
@@ -192,7 +233,7 @@
             </section>
 
             <section id="shatter-chapter-3-section-3">
-              <h3 class="mt-5">The Process used for <em>Shatter</em></h3>
+              <h2 class="mt-5">The Process used for <em>Shatter</em></h2>
               <p>
                 The digital workflow of <em>Shatter</em> also starts with the
                 script. But as described by Mike Gold, the series' editor, in
@@ -223,7 +264,7 @@
               <p class="text-center">
                 <img
                   src="img/picture24.webp"
-                  alt="Figure 22"
+                  alt="Interior art from Shatter Special #1, colored and before coloring"
                   class="img-fluid"
                 />
               </p>
@@ -243,7 +284,7 @@
               <p class="text-center">
                 <img
                   src="img/picture25.webp"
-                  alt="Figure 23"
+                  alt="MacDraw on a monochrome Macintosh, circa 1985"
                   class="img-fluid"
                 />
               </p>
@@ -253,7 +294,7 @@
             </section>
 
             <section id="shatter-chapter-3-section-4">
-              <h3 class="mt-5">The Typical Process in 2018</h3>
+              <h2 class="mt-5">The Typical Process in 2018</h2>
               <p>
                 Today, we need to distinguish between comic books produced by
                 the "big two" commercial comic book publishers, Marvel and DC
@@ -262,7 +303,7 @@
                 artists or groups of artists.
               </p>
 
-              <h4>Commercial Comics</h4>
+              <h3>Commercial Comics</h3>
               <p>
                 Even at the time of writing this paper, the steps in creating a
                 physically printed commercial comic book have not changed
@@ -272,16 +313,16 @@
                 forwards it to the artist.
               </p>
               <p>
-                This where the process becomes very disparate. Different artists
-                work differently. Some will still draw the artwork on paper
-                board using a pencil and then either ink it themselves or pass
-                it on to an inker to be embellished. Even if this analog path is
-                chosen, some artists will still use digital references or even
-                trace from printouts of digital sources. They might model
-                difficult background shots using 3D software and then draw from
-                this reference. In any case, the artwork is scanned into the
-                computer and sent as a digital file to the publisher for further
-                processing.
+                This is where the process becomes very disparate. Different
+                artists work differently. Some will still draw the artwork on
+                paper board using a pencil and then either ink it themselves or
+                pass it on to an inker to be embellished. Even if this analog
+                path is chosen, some artists will still use digital references
+                or even trace from printouts of digital sources. They might
+                model difficult background shots using 3D software and then draw
+                from this reference. In any case, the artwork is scanned into
+                the computer and sent as a digital file to the publisher for
+                further processing.
               </p>
               <p>
                 Two steps in the process have switched nearly exclusively to
@@ -292,7 +333,7 @@
               <p class="text-center">
                 <img
                   src="img/picture26.webp"
-                  alt="Figure 24"
+                  alt="Artist using a Wacom Cintiq 24-inch drawing tablet"
                   class="img-fluid"
                 />
               </p>
@@ -351,7 +392,7 @@
                 cannot yet compensate for the drop in sales.
               </p>
 
-              <h4>Independent Artists</h4>
+              <h3>Independent Artists</h3>
               <p>
                 Again, it is hard to generalize; there will always be artists
                 who prefer traditional analog means. In some cases, they might
@@ -400,19 +441,19 @@
               <p class="text-center">
                 <img
                   src="img/picture27.webp"
-                  alt="Figure 25"
+                  alt="Smith Micro Poser application rendering 3D characters as ink drawings"
                   class="img-fluid"
                 />
               </p>
               <p class="text-secondary text-center">
                 Figure 25: The Smith Micro application Poser allows artists to
-                pose 3D charactersand render them out as ink drawings for use in
-                their comics.
+                pose 3D characters and render them out as ink drawings for use
+                in their comics.
               </p>
             </section>
 
             <section id="shatter-chapter-3-section-5">
-              <h3 class="mt-5">Comparing the Processes</h3>
+              <h2 class="mt-5">Comparing the Processes</h2>
               <p>
                 In contrast, <em>Shatter</em> was limited by the available means
                 of communication, with disks with the digital materials being
@@ -449,7 +490,7 @@
 
             <section id="shatter-chapter-3-footnotes">
               <hr />
-              <h3 class="mt-5">Footnotes</h3>
+              <h2 class="mt-5">Footnotes</h2>
               <p id="shatter-chapter-3-footnote-13">
                 <sup>[13]</sup> Lee, S., & Buscema, J. (1978). How to Draw
                 Comics the Marvel Way. New York: Simon & Schuster Inc. <br /><a
@@ -488,7 +529,7 @@
         </main>
 
         <aside class="col-md-4">
-          <div class="alert alert-warning position-fixed" id="toc-sidenav">
+          <div class="alert alert-warning position-fixed mx-2" id="toc-sidenav">
             <img
               src="img/dots-by-any-other-name.webp"
               alt="Dots by any other Name"
@@ -496,11 +537,15 @@
             />
             <div class="row">
               <div class="my-1 text-center">
-                <a href="https://marincomics.com" class="btn btn-outline-primary btn-sm ">&uarr; Home</a>
+                <a
+                  href="https://marincomics.com"
+                  class="btn btn-outline-primary btn-sm"
+                  >&uarr; Home</a
+                >
               </div>
               <div class="col d-flex justify-content-center">
                 <div
-                  class="btn-toolbar mb-2"
+                  class="btn-toolbar mb-1"
                   role="toolbar"
                   aria-label="Page selector"
                 >
