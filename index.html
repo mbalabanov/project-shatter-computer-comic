@@ -110,12 +110,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarMarinComics">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a
-                class="nav-link link-light"
+                class="nav-link link-light dropdown-toggle"
                 href="https://marincomics.com/writing.html"
+                id="writingMenu"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
                 >Writing</a
               >
+              <ul class="dropdown-menu" aria-labelledby="writingMenu">
+                <li><a class="dropdown-item" href="https://marincomics.com/writing.html">All Articles</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="https://marincomics.com/demoscene.html">The Demoscene</a></li>
+                <li><a class="dropdown-item" href="https://marincomics.com/hackathons-and-conventions.html">Hackathons and Conventions</a></li>
+                <li><a class="dropdown-item" href="https://marincomics.com/retro-computing.html">Retro Computing and Gaming</a></li>
+                <li><a class="dropdown-item" href="https://marincomics.com/comics-and-art.html">Comics and Art</a></li>
+                <li><a class="dropdown-item" href="https://marincomics.com/tech-and-tools.html">Technology and Tools</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a
